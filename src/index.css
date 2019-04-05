@@ -1,0 +1,111 @@
+body {
+  font-family: Helvetica;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 14px;
+}
+
+
+/* page styles */
+.page {
+  max-width: 900px;
+  margin: 4rem auto;
+}
+
+/* nav-bar */
+
+.nav-bar { 
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1.5px solid #222;
+}
+.nav-bar a {
+  background: #222;
+  color: white;
+  padding: .5rem 1rem;
+  text-decoration: none;
+}
+
+/* character list page */
+
+.character-list-metadata {
+  border: 1.5px solid #222;
+  padding: .5rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.characters-page {
+  text-align: left;
+}
+
+.page-content {
+  display: flex;
+}
+
+.panel {
+  padding: 2rem;
+}
+
+.left-panel {
+  flex: 1;
+}
+
+.right-panel {
+  flex: 2;
+}
+
+/* character details */
+
+.character .character-label {
+  margin-bottom: 1rem;
+}
+
+.character .character-label button {
+  float: right;
+  background: #222;
+  color: white;
+}
+
+.character-label button:active, .character-label button:focus {
+  outline: none;
+}
+
+.character .headshot-wrapper {
+  cursor: pointer;
+  display: inline-block;
+  width: 20%;
+}
+
+.character .info-wrapper {
+  margin-left: 2rem;
+  display: inline-block;
+  text-align: left;
+}
+
+/* nav bar */
+
+.nav-bar a {
+  margin: 1rem;
+}
+
+/* utility classes */
+
+.hidden {
+  display: none;
+}
