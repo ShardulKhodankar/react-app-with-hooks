@@ -1,3 +1,10 @@
+import React from 'react';
+import { connect } from 'react-redux';
+
+import withLoader from '../hocs/withLoader';
+import Character from './character/character';
+
+
 const ListOfCharacters = props => {
     const CharactersJSX = props.characterList.map( (characterObj, i) =>
         <Character 

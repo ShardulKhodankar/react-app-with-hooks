@@ -42,7 +42,7 @@ export const detailCharacter = ( oldState = initialState.detailCharacter, action
 export const metadata = ( oldState = initialState.metadata, action ) => {
     switch (action.type) {
         case actionTypes.METADATA_LOADED:
-            return false
+            return action.payload
         case actionTypes.METADATA_REQUESTED:
             return true
         default: 
